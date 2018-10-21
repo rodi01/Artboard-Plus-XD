@@ -1,0 +1,11 @@
+package.json
+TODO
+webpack.config.js
+/types
+.eslintrc.json
+.git
+.gitignore
+.xdignore
+icon_512.png
+*.lock
+.vscode

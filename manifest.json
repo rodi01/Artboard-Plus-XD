@@ -1,0 +1,37 @@
+{
+  "id": "taptap.ninja.artboard-rocks",
+  "name": "Artboard Rocks 🤘",
+  "host": {
+    "app": "XD",
+    "minVersion": "13.0.0"
+  },
+  "version": "1.0.0",
+  "uiEntryPoints": [
+    {
+      "type": "menu",
+      "label": "Artboard Rocks 🤘",
+      "menuItems": [
+        {
+          "type": "menu",
+          "label": "Wrap Around Selection",
+          "commandId": "wrapSelection"
+        },
+        {
+          "type": "menu",
+          "label": "Sort Artboards A-Z",
+          "commandId": "sortAZ"
+        },
+        {
+          "type": "menu",
+          "label": "Sort Artboards Z-A",
+          "commandId": "sortZA"
+        },
+        {
+          "type": "menu",
+          "label": "Arrange Selected into Grid",
+          "commandId": "notImplemented"
+        }
+      ]
+    }
+  ]
+}
