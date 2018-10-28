@@ -17,3 +17,9 @@ Sort artboards by name in the layer list. Run the command `Plugins → Artboard 
 ## Settings
 
 This is where you set the horizontal and vertical spacing when rearranging artboards. **Due to Adobe XD incompatibility these settings can only be saved globally and not per document**
+
+## More Info
+
+Artboard Plus is maintained by Rodrigo Soares, follow me [@rodi01](https://twitter.com/rodi01)
+
+MIT License © Rodrigo Soares.
