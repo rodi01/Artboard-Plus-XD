@@ -1,6 +1,6 @@
 import { Artboard, Color } from "scenegraph"
 import commands from "commands"
-import dialog from "../lib/dialogs.js"
+import dialog from "../lib/dialog"
 
 export default function(selection, documentRoot) {
   if (selection.items.length <= 0) {
@@ -11,7 +11,7 @@ export default function(selection, documentRoot) {
     return
   } else if (selection.hasArtboards) {
     dialog.alert(
-      "Wrap Around Selection 🤘",
+      "Create Artboard Around Selection",
       "Artbord can't be created around another artboard. Please de-select artboard."
     )
     return
