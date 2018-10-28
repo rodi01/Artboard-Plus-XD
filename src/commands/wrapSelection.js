@@ -1,8 +1,8 @@
-const { Artboard, Color } = require("scenegraph")
-const commands = require("commands")
-const dialog = require("../lib/dialogs.js")
+import { Artboard, Color } from "scenegraph"
+import commands from "commands"
+import dialog from "../lib/dialogs.js"
 
-function wrapSelection(selection, documentRoot) {
+export default function(selection, documentRoot) {
   if (selection.items.length <= 0) {
     dialog.alert(
       "Wrap Around Selection 🤘",
@@ -35,4 +35,3 @@ function wrapSelection(selection, documentRoot) {
   documentRoot.addChild(artboard, 0)
   artboard.moveInParentCoordinates(properties.x, properties.y)
 }
-module.exports = wrapSelection

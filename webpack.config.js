@@ -11,7 +11,20 @@ module.exports = {
     scenegraph: "scenegraph",
     commands: "commands"
   },
-  optimization: {
-    minimize: false
+  module: {
+    rules: [
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loader: "babel-loader",
+        options: {
+          plugins: ["transform-react-jsx"]
+        }
+      },
+      {
+        test: /\.scss$/,
+        use: ["style-loader", "css-loader", "sass-loader"]
+      }
+    ]
   }
 }

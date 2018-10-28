@@ -1,12 +1,24 @@
 {
-  "name": "artboard-rocks",
+  "name": "artboard-plus",
   "version": "1.0.0",
-  "description": "",
+  "description": "A series of artboard related tools to speed up your Adobe XD workflow",
   "main": "main.js",
   "directories": {
     "lib": "lib"
   },
-  "dependencies": {},
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "is-blank": "^2.1.0",
+    "is-number": "^7.0.0",
+    "node-sass": "^4.9.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
+  },
   "devDependencies": {
     "array-sort": "^1.0.0",
     "eslint-config-airbnb": "^17.1.0",
@@ -14,9 +26,10 @@
     "webpack-cli": "^3.1.2"
   },
   "scripts": {
-    "watch": "nodemon -w src -w package.json -x npm run-script build",
+    "watch": "nodemon -w src -e js,jsx,scss -w package.json -x npm run-script build",
     "build": "webpack --config webpack.config.js --mode development",
-    "build:prod": "webpack --mode production"
+    "build:prod": "webpack --mode production",
+    "package": "npm run build:prod; xdpm package"
   },
   "author": "Rodrigo Soares",
   "license": "MIT"

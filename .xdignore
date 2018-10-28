@@ -2,6 +2,7 @@ package.json
 TODO
 webpack.config.js
 /types
+/src
 .eslintrc.json
 .git
 .gitignore

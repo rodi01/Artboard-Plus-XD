@@ -18,18 +18,23 @@
         },
         {
           "type": "menu",
-          "label": "Sort Artboards A-Z",
+          "label": "Sort by Name A-Z",
           "commandId": "sortAZ"
         },
         {
           "type": "menu",
-          "label": "Sort Artboards Z-A",
+          "label": "Sort by Name Z-A",
           "commandId": "sortZA"
         },
         {
           "type": "menu",
-          "label": "Arrange Selected into Grid",
-          "commandId": "notImplemented"
+          "label": "Rearrange into Grid",
+          "commandId": "rearrangeArtboards"
+        },
+        {
+          "type": "menu",
+          "label": "Settings",
+          "commandId": "settings"
         }
       ]
     }

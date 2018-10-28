@@ -1,0 +1,38 @@
+hr {
+  margin-bottom: 16px;
+}
+
+.errorMessage {
+  color: #f44b60;
+  font-size: 11px;
+  visibility: hidden;
+  flex-basis: 100%;
+  display: flex;
+
+  &.show {
+    visibility: visible;
+  }
+}
+
+.inputWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  align-items: center;
+  margin-left: 6px;
+
+  input[type="text"] {
+    width: 100px;
+    flex: 1 0 50%;
+  }
+
+  label {
+    flex-shrink: 0;
+    width: 120px;
+  }
+
+  h2 + & {
+    margin-top: 8px;
+  }
+}
