@@ -13,7 +13,7 @@ export default class debugHelper {
    */
   static log(...objects) {
     if (debugHelper.shouldDebug()) {
-      objects.unshift("Artboard Rocks: ")
+      objects.unshift("Artboard Plus: ")
       const args = Array.prototype.slice.call(
         objects.map(
           value => (value instanceof Object ? JSON.stringify(value) : value)

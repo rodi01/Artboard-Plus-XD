@@ -20,9 +20,9 @@ This is where you set the horizontal and vertical spacing when rearranging artbo
 
 ## Credit
 
-Rearrange artboards into grid - Based on Roman Nurik's Sketch plugin [Artboard Tricks](https://github.com/romannurik/Sketch-ArtboardTricks).
+Rearrange artboards into grid - [Based on Roman Nurik's Sketch plugin Artboard Tricks](https://github.com/romannurik/Sketch-ArtboardTricks).
 
-Storage helper - [Pablo Klaschka](https://twitter.com/pklaschka2000)
+[xd-storage-helper - Pablo Klaschka](https://github.com/pklaschka/xd-storage-helper)
 
 ## More Info
 

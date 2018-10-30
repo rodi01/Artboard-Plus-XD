@@ -5,7 +5,6 @@ import { DEFAULT_SPACEX, DEFAULT_SPACEY } from "../helpers/Constants"
 import storageHelper from "../helpers/storage.js"
 import { artboards } from "../helpers/utils.js"
 import dialog from "../lib/dialog"
-import debugHelper from "../helpers/debug.js"
 
 /**
  * Create an array of obect with artboards and their position
@@ -34,7 +33,7 @@ function getOrigin(artboards) {
   const minX = artboards.reduce(
     (prev, current) => (prev.left < current.left ? prev : current),
     1
-  )``
+  )
 
   const minY = artboards.reduce(
     (prev, current) => (prev.top < current.top ? prev : current),
@@ -55,6 +54,7 @@ function getOrigin(artboards) {
 export default async function rearrangeArtboards(selection, documentRoot) {
   const nodes = selection.hasArtboards ? selection.items : documentRoot.children
   const allArtboards = metaArtboards(nodes)
+
   if (allArtboards.length <= 0) {
     dialog.alert(
       "Rearrange Artboards into Grid",
