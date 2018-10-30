@@ -18,6 +18,12 @@ Sort artboards by name in the layer list. Run the command `Plugins → Artboard 
 
 This is where you set the horizontal and vertical spacing when rearranging artboards. **Due to Adobe XD incompatibility these settings can only be saved globally and not per document**
 
+## Credit
+
+Rearrange artboards into grid - Based on Roman Nurik's Sketch plugin [Artboard Tricks](https://github.com/romannurik/Sketch-ArtboardTricks).
+
+Storage helper - [Pablo Klaschka](https://twitter.com/pklaschka2000)
+
 ## More Info
 
 Artboard Plus is maintained by Rodrigo Soares, follow me [@rodi01](https://twitter.com/rodi01)

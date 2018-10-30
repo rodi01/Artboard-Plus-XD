@@ -5,7 +5,7 @@ import dialog from "../lib/dialog"
 export default function(selection, documentRoot) {
   if (selection.items.length <= 0) {
     dialog.alert(
-      "Wrap Around Selection 🤘",
+      "Create Artboard Around Selection",
       "You need to select at least one layer."
     )
     return
