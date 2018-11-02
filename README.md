@@ -1,3 +1,5 @@
+<img src="images/icon.png" alt="Artboard plus" />
+
 # Artboard Plus
 
 Artboard tools to speed up your Adobe XD workflow. Rearrange artboards into grid, sort them by name or create an artboard around selection.
