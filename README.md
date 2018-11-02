@@ -14,13 +14,19 @@ Run the command `Plugins → Artboard Plus → Rearrange Artboards into Grid` to
 
 ### Arrange Selected Artboards
 
+![alt text](https://d1o11igmtwz5yg.cloudfront.net/images/artboardplus/arrange_selected_artboards.gif "Arrange Selected Artboards")
+
 ## Create artboard around selection
 
 Select the layers that you want to create an artboard for and run the command `Plugins → Artboard Plus → Create Artboard Around Selection`
 
+![alt text](https://d1o11igmtwz5yg.cloudfront.net/images/artboardplus/create_artboard.gif "Create Artboard Around Selection")
+
 ## Sort artboards
 
 Sort artboards by name in the layer list. Run the command `Plugins → Artboard Plus → Sort Artboards by Name A-Z` for ascending order or `Plugins → Artboard Plus → Sort Artboards by Name Z-A` for descending order
+
+![alt text](https://d1o11igmtwz5yg.cloudfront.net/images/artboardplus/sort_artboards.gif "Sort Artboards by Name")
 
 ## Settings
 
