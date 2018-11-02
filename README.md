@@ -10,7 +10,7 @@ Run the command `Plugins → Artboard Plus → Rearrange Artboards into Grid` to
 
 ### Arrange All Artboards
 
-<img src="https://x.rodrigosoares.me.s3.amazonaws.com/images/artboardplus/arrange_all_artboards.gif" alt="Arrange All Artboards"/>
+![alt text](https://d1o11igmtwz5yg.cloudfront.net/images/artboardplus/arrange_all_artboards.gif "Arrange All Artboards")
 
 ### Arrange Selected Artboards
 
