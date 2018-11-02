@@ -8,6 +8,12 @@ Artboard tools to speed up your Adobe XD workflow. Rearrange artboards into grid
 
 Run the command `Plugins → Artboard Plus → Rearrange Artboards into Grid` to rearrange all artboards in the document. If you have selected artboards, it will rearrange only the selected ones.
 
+### Arrange All Artboards
+
+<img src="https://x.rodrigosoares.me.s3.amazonaws.com/images/artboardplus/arrange_all_artboards.gif" alt="Arrange All Artboards"/>
+
+### Arrange Selected Artboards
+
 ## Create artboard around selection
 
 Select the layers that you want to create an artboard for and run the command `Plugins → Artboard Plus → Create Artboard Around Selection`
