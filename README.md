@@ -1,4 +1,4 @@
-<img src="images/icon.png" alt="Artboard plus" />
+<img src="images/Icon@2x.png" alt="Artboard plus" />
 
 # Artboard Plus
 
