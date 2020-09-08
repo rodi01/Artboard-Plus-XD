@@ -5,8 +5,15 @@
   "summary": "Orginize Artboards",
   "description": "Artboard tools to speed up your Adobe XD workflow. Rearrange artboards into grid, sort them by name or create an artboard around selection.",
   "author": "Rodrigo Soares",
-  "keywords": ["utility", "productivity", "artboard", "automation"],
-  "languages": ["en"],
+  "keywords": [
+    "utility",
+    "productivity",
+    "artboard",
+    "automation"
+  ],
+  "languages": [
+    "en"
+  ],
   "helpUrl": "https://github.com/rodi01/Artboard-Plus-XD/blob/master/README.md",
   "icons": [
     {
@@ -30,12 +37,10 @@
       "path": "images/Icon@4x.png"
     }
   ],
-
   "host": {
     "app": "XD",
     "minVersion": "13.0"
   },
-
   "uiEntryPoints": [
     {
       "type": "menu",
@@ -60,6 +65,16 @@
           "type": "menu",
           "label": "Sort Artboards by Name Z-A",
           "commandId": "sortZA"
+        },
+        {
+          "type": "menu",
+          "label": "Sort Artboards Left to Right, Top to Bottom",
+          "commandId": "sortXY"
+        },
+        {
+          "type": "menu",
+          "label": "Sort Artboards Top to Bottom, Left to Right",
+          "commandId": "sortYX"
         },
         {
           "type": "menu",
