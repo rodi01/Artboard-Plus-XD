@@ -3,7 +3,7 @@ import arraySort from "array-sort"
 import { artboards } from "../helpers/utils.js"
 import dialog from "../lib/dialog"
 
-function sort(selection, artboards, reverse = false) {
+function sort(selection, artboards) {
   // No artboards check
   if (artboards.length <= 0) {
     dialog.alert(
