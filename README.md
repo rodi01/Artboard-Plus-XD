@@ -24,7 +24,10 @@ Select the layers that you want to create an artboard for and run the command `P
 
 ## Sort artboards
 
-Sort artboards by name in the layer list. Run the command `Plugins → Artboard Plus → Sort Artboards by Name A-Z` for ascending order or `Plugins → Artboard Plus → Sort Artboards by Name Z-A` for descending order
+Sort artboards by name in the layer list or by x y position on the canvas. 
+- Alphabetical: Run the command `Plugins → Artboard Plus → Sort Artboards by Name A-Z` for ascending order or `Plugins → Artboard Plus → Sort Artboards by Name Z-A` for descending order
+- X Y Position: Run the command `Plugins → Artboard Plus → Sort Artboards Left to Right, Top to Bottom` to sort artboards horizontally, then vertically. Run `Plugins → Artboard Plus → Sort Artboards Top to Bottom, Left to Right` to sort vertically first
+<!-- do you want to be a good citizen of the world and also support r-t-l sorting for our arabic and hebrew bros? -->
 
 ![alt text](https://d1o11igmtwz5yg.cloudfront.net/images/artboardplus/sort_artboards.gif "Sort Artboards by Name")
 
