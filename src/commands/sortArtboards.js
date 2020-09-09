@@ -22,7 +22,6 @@ function sort(selection, artboards) {
 }
 
 function sortByXYCoords(aSceneNode, bSceneNode, compareYFirst = true) {
-  console.log(aSceneNode, bSceneNode);
   const [primary, secondary] = compareYFirst ? ['y', 'x'] : ['x', 'y'];
   const comparePrimary = aSceneNode.globalBounds[primary] - bSceneNode.globalBounds[primary]
   if (comparePrimary == 0) // if both artboards are aligned in the primary dimension
