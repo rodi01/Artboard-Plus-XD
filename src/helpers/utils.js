@@ -8,7 +8,7 @@ const { Artboard } = require("scenegraph");
  */
 function isArtboard(node) {
   // return node.constructor.name === "Artboard"
-  return (artboard instanceof Artboard)
+  return (node instanceof Artboard)
 }
 
 /**
