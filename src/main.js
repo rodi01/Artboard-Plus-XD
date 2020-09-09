@@ -3,8 +3,7 @@ const React = require("react")
 const ReactDOM = require("react-dom")
 const { DEFAULT_SPACEX, DEFAULT_SPACEY } = require("./helpers/Constants")
 const wrapSelection = require("./commands/wrapSelection").default
-const sortAZ = require("./commands/sortArtboards").sortAZ
-const sortZA = require("./commands/sortArtboards").sortZA
+const { sortAZ, sortZA, sortXY, sortYX } = require("./commands/sortArtboards")
 const rearrangeArtboards = require("./commands/rearrangeArtboards").default
 const Settings = require("./views/settings.jsx").default
 const storageHelper = require("../src/helpers/storage").default
@@ -35,8 +34,10 @@ module.exports = {
     wrapSelection: wrapSelection,
     sortAZ: sortAZ,
     sortZA: sortZA,
+    sortXY: sortXY,
+    sortYX: sortYX,
     rearrangeArtboards: rearrangeArtboards,
-    settings: function() {
+    settings: function () {
       document.appendChild(showSettings()).showModal()
     }
   }

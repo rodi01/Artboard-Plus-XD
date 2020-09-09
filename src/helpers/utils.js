@@ -1,3 +1,5 @@
+const { Artboard } = require("scenegraph");
+
 /**
  * Check if node is artboard
  *
@@ -5,7 +7,8 @@
  * @returns
  */
 function isArtboard(node) {
-  return node.constructor.name === "Artboard"
+  // return node.constructor.name === "Artboard"
+  return (node instanceof Artboard)
 }
 
 /**
