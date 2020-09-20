@@ -1,40 +1,23 @@
 {
   "id": "e192279e",
   "name": "Artboard Plus",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "summary": "Orginize Artboards",
   "description": "Artboard tools to speed up your Adobe XD workflow. Rearrange artboards into grid, sort them by name or create an artboard around selection.",
   "author": "Rodrigo Soares",
-  "keywords": [
-    "utility",
-    "productivity",
-    "artboard",
-    "automation"
-  ],
-  "languages": [
-    "en"
-  ],
+  "keywords": ["utility", "productivity", "artboard", "automation"],
+  "languages": ["en"],
   "helpUrl": "https://github.com/rodi01/Artboard-Plus-XD/blob/master/README.md",
   "icons": [
     {
+      "width": 24,
+      "height": 24,
+      "path": "images/icon_24.png"
+    },
+    {
       "width": 48,
       "height": 48,
-      "path": "images/Icon@1x.png"
-    },
-    {
-      "width": 96,
-      "height": 96,
-      "path": "images/Icon@2x.png"
-    },
-    {
-      "width": 144,
-      "height": 144,
-      "path": "images/Icon@3x.png"
-    },
-    {
-      "width": 192,
-      "height": 192,
-      "path": "images/Icon@4x.png"
+      "path": "images/icon_48.png"
     }
   ],
   "host": {
