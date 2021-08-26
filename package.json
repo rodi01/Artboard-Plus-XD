@@ -1,6 +1,6 @@
 {
   "name": "artboard-plus",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Artboard tools to speed up your Adobe XD workflow. Rearrange artboards into grid, sort them by name or create an artboard around selection.",
   "main": "main.js",
   "directories": {
