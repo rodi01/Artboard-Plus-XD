@@ -4,11 +4,17 @@ import { artboards } from "../helpers/utils.js"
 import dialog from "../lib/dialog"
 
 function sort(selection, artboards) {
-  // No artboards check
+  // Not enough Artboards check
   if (artboards.length <= 0) {
     dialog.alert(
-      "Sort Artboards",
-      "You haven't selected any artboards"
+      "No Artboards Selected",
+      "You must select more than one Artboard to sort"
+    )
+    return
+  } else if (artboards.length === 1) {
+    dialog.alert(
+      "Only One Artboard Selected",
+      "You must select more than one Artboard to sort"
     )
     return
   }
