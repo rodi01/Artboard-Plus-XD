@@ -24,7 +24,7 @@
     "eslint-config-airbnb": "^17.1.0",
     "nodemon": "^2.0.4",
     "webpack": "^4.21.0",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "watch": "nodemon -w src -e js,jsx,scss -w package.json -x npm run-script build",
